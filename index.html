@@ -8,14 +8,22 @@
 
   	<header>
       <div>
-        <img src="img/logo.png" alt="Логотип магазина «Техномарт»" height="47" width="220"> 
-        <!--Форма поиска-->
+        <a href="#">
+          <img src="img/logo.png" alt="Логотип магазина «Техномарт»" height="47" width="220"> 
+        </a>
+        
+        <form>
+          <label for="search-site">Поиск:</label>
+         <input type="search" name="search-site" id="search-site"> 
+        </form>
+
         <ul>
           <li><a href="#">Закладки</a></li>
           <li><a href="#">Корзина</a></li>
           <li><a href="#">Оформить заказ</a></li>
         </ul>        
       </div>
+
       <div>
         <p>
           Интернет-магазин<br>
@@ -24,17 +32,23 @@
         </p>
         <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+
+
         <ul>
-          <li><button type="button">Войти</button></li>
-          <li><button type="button">Регистрация</button></li>
+          <li>
+            <a href="#">Войти</a>
+          <li>
+            <a href="#">Регистрация</a>
+          </li>
         </ul>
 
         <!--Ссылки, доступные авторизованным пользователям-->
-        <ul>
+        <ul class="visually-hidden">
           <li><a href="#">Мои заказы</a></li>
           <li><a href="#">Личный кабинет</a></li>
         </ul>        
       </div>
+
       <div>
         <nav>
           <ul>
@@ -51,11 +65,11 @@
   	</header>
 
   	<main>
-  		<h1>Магазин «Техномарт»</h1>
+  		<h1 class="visually-hidden">Магазин «Техномарт»</h1>
 
 
       <section>
-        <h2>Популярные разделы сайта</h2>
+        <h2 class="visually-hidden">Популярные разделы сайта</h2>
 
         <ul>
           <li>
@@ -99,65 +113,57 @@
 
         <ul>
           <li>
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>              
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 9000</span>
-              </a>
-            </h3>
-            <a href="#">
-              <img src="img/perforator-1.jpg" alt="Перфоратор BOSCH BFG 9000" width="218" height="170">
+              </h3>
+                <img src="img/perforator-1.jpg" alt="Перфоратор BOSCH BFG 9000" width="218" height="170">
             </a>
+
             <p>32500 Р.</p>
             <p>25500 Р.</p>          
           </li>
 
           <li>
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>              
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 3000</span>
-              </a>
-            </h3>
-            <a href="#">
-              <img src="img/perforator-2.jpg" alt="Перфоратор BOSCH BFG 3000" width="218" height="170">
+              </h3>
+                <img src="img/perforator-2.jpg" alt="Перфоратор BOSCH BFG 3000" width="218" height="170">
             </a>
+
             <p>22500 Р.</p>
             <p>15500 Р.</p>          
           </li>
 
           <li>
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>              
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 6000</span>
-              </a>
-            </h3>
-            <a href="#">
-              <img src="img/perforator-3.jpg" alt="Перфоратор BOSCH BFG 6000" width="218" height="170">
+              </h3>
+                <img src="img/perforator-3.jpg" alt="Перфоратор BOSCH BFG 6000" width="218" height="170">
             </a>
+
             <p>30500 Р.</p>
             <p>25500 Р.</p>          
           </li>
 
           <li>
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>              
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 2000</span>
-              </a>
-            </h3>
-            <a href="#">
-              <img src="img/perforator-4.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
+              </h3>
+                <img src="img/perforator-4.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
             </a>
+
             <p>12500 Р.</p>          
           </li>
-
         </ul>
-
       </section>
-
-
 
 
       <section>
@@ -212,11 +218,6 @@
 
 
 
-
-
-
-
-
   		<section>
         <h2>Сервисы</h2>
         <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
@@ -237,7 +238,7 @@
         <img src="img/bus.png" height="261" width="468" alt="Наша доставка">
         </div>
 
-        <div>
+        <div class="visually-hidden">
           <h3>Гарантия</h3>
           <p>Если купленный у нас товар поломается или заискрит,<br>
           а также в случае пожара, спровоцированного его возгоранием,<br> 
@@ -247,7 +248,7 @@
           <img src="img/guarantee.png" height="283" width="389" alt="Наша гарантия">
         </div>
 
-        <div>
+        <div class="visually-hidden">
           <h3>Кредит</h3>
           <p>Залезть в долговую яму стало проще!<br>
           Кредитные консультанты придут вам на помощь.</p>
@@ -255,8 +256,6 @@
           <a href="#">Отправить заявку</a>
         </div>
 
-
-        
       </section>
 
   		<section>
@@ -283,13 +282,40 @@
   		</section>
 
 
-    
+      <section>
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <img src="img/map-big.png" alt="Офис компании находится по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" height="446" width="940">
+        <button type="button" aria-label="Закрытие карты"></button>
+      </section>
 
 
+      <section>
+        <h2 class="visually-hidden">Форма для ваших вопросов</h2>
+        <form action="https://echo.htmlacademy.ru" method="post">
 
+        <p>
+          <label for="user-name">Ваше имя:</label>
+          <input type="text" id="user-name" name="user-name" placeholder="Имя Фамилия">
+        </p> 
 
+        <p>
+          <label for="user-email">Ваш e-mail:</label>
+          <input type="text" id="user-email" name="user-email" placeholder="email@example.com">
+        </p>
 
+        <p>
+          <label for="message">Текст письма:</label>
+          <textarea id="message" rows="5" cols="20">В свободной форме</textarea>         
+        </p>
 
+        <button type="submit">Отправить</button>
+          
+      </form>
+
+        <button type="button" aria-label="Закрытие формы"></button>
+        
+
+      </section>
 
   	</main>
 
@@ -347,7 +373,5 @@
 
 
   	</footer>
-
-
   </body>
 </html>
