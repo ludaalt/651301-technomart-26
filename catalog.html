@@ -81,6 +81,24 @@
 
         <form action="https://echo.htmlacademy.ru" method="get">
 
+          <p>Сортировка:</p>
+          <button type="submit">По цене</button>
+          <button type="submit">По типу</button>
+          <button type="submit">По функционалу</button>
+
+          <p>Фильтр:</p>
+
+        <fieldset>
+          <legend>Цена:</legend>
+
+          <input type="range" min="0" max="30000">
+          <input type="text" value="0" name="min-price">
+          <input type="text" value="30000" name="max-price">
+
+        </fieldset>
+
+
+
         <fieldset>
           <legend>Производители:</legend>
           <ul>
