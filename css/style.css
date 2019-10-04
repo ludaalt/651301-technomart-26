@@ -1,15 +1,9 @@
-
-
-
-
-
 .user-navigation {
 	background-color: #293449;
-
 	font-size: 17px;
 	line-height: 18px;
 	color: #fff;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .user-navigation-list {
@@ -21,7 +15,7 @@
 	font-size: 17px;
 	line-height: 18px;
 	color: #fff;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .order-button {
@@ -36,13 +30,11 @@
 	background-color: #518534;
 }
 
-
-
 .site-description {
 	font-size: 16px;
 	line-height: 23px;
 	color: #ee3643;
-	font-family: Cuprum;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 	font-style: italic;
 }
 
@@ -51,14 +43,14 @@
 	font-size: 21px;
 	line-height: 21px;
 	color: #e9292a;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .shop-address {
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .login-buttons {
@@ -74,7 +66,7 @@
 	font-size: 21px;
 	line-height: 21px;
 	color: #000;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .login-button a:hover {
@@ -89,7 +81,7 @@
 	font-size: 21px;
 	line-height: 21px;
 	color: #000;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .user-name:active {
@@ -105,7 +97,7 @@
 	font-size: 16px;
 	line-height: 18px;
 	color: #32425c;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .user-link a:hover {
@@ -115,11 +107,6 @@
 .user-link a:active {
 	color: #c5cad0;
 }
-
-
-
-
-
 
 .main-navigation {
 	background-color: #32425c;
@@ -134,7 +121,7 @@
 	font-size: 17px;
 	line-height: 17px;
 	color: #fff;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .main-navigation-item:hover {
@@ -150,23 +137,19 @@
 	color: #a8abaf;
 }
 
-
-
-
-
 .about-company h2 {
 	text-transform: uppercase;
 	font-size: 30px;
 	line-height: 30px;
 	color: #000000;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .about-company p {
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
-	font-family: PT Sans Regular;
+	font-family: "PT Sans Regular", "Arial", sans-serif;
 }
 
 .about-company-list {
@@ -177,20 +160,18 @@
 	font-size: 18px;
 	line-height: 20px;
 	color: #000000;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .red-button {
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
-
 	background-color: #ee3643;
 }
-
 
 footer ul {
 	list-style: none;
@@ -201,15 +182,12 @@ footer ul {
 	background-color: #32425c;
 }
 
-
-
 .footer-top-list a {
 	text-decoration: none;
-
 	font-size: 18px;
 	line-height: 24px;
 	color: #f1f5f7;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .footer-top-list a:hover {
@@ -225,15 +203,14 @@ footer ul {
 	font-size: 18px;
 	line-height: 24px;
 	color: #f3f7f9;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .footer-middle-list a {
 	font-size: 18px;
 	line-height: 24px;
 	color: #ffd180;
-	font-family: Cuprum Regular;
-
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 	text-decoration: none;
 }
 
@@ -246,7 +223,6 @@ footer ul {
 	color: #ad956f;
 }
 
-
 .footer-bottom {
 	background-color: #293449;
 }
@@ -255,15 +231,14 @@ footer ul {
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 }
 
 .footer-bottom-list a {
 	font-size: 18px;
 	line-height: 24px;
 	color: #fff;
-	font-family: Cuprum Regular;
-
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 	text-decoration: none;
 }
 
@@ -276,7 +251,7 @@ footer ul {
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffd180;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 	text-decoration: none;
 }
 
@@ -288,11 +263,6 @@ footer ul {
 	text-decoration: none;
 	color: #e53643;
 }
-
-
-
-
-
 
 .visually-hidden {
 	position: absolute;
@@ -306,17 +276,12 @@ footer ul {
 }
 
 
-
-
-
 /* ДЛЯ СТРАНИЦЫ КАТАЛОГА */ 
-
-
 .catalog-title {
 	font-size: 30px;
 	line-height: 30px;
 	color: #32425c;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -331,7 +296,7 @@ footer ul {
 	font-size: 13px;
 	line-height: 18px;
 	color: #000;
-	font-family: Cuprum Regular;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -343,7 +308,7 @@ footer ul {
 	font-size: 17px;
 	line-height: 30px;
 	color: #000;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 
@@ -353,7 +318,7 @@ footer ul {
 	font-size: 15px;
 	line-height: 20px;
 	color: #000;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 
 }
@@ -366,13 +331,10 @@ footer ul {
 	font-size: 13px;
 	line-height: 18px;
 	color: #000;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
-
 	background-color: #ffffff;
 }
-
-
 
 .products {
 	list-style: none;
@@ -382,7 +344,7 @@ footer ul {
 	font-size: 18px;
 	line-height: 20px;
 	color: #000;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 700;
 }
 
@@ -395,7 +357,7 @@ footer ul {
 	line-height: 18px;
 	color: #999999;
 	font-weight: 700;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-decoration: line-through;
 }
 
@@ -403,9 +365,8 @@ footer ul {
 	font-size: 17px;
 	line-height: 18px;
 	color: #fff;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 700;
-
 	background-color: #ee3643;
 }
 
@@ -413,9 +374,8 @@ footer ul {
 	font-size: 14px;
 	line-height: 18px;
 	color: #fff;
-	font-family: Cuprum Sans;
+	font-family: "Cuprum Sans", "Arial", sans-serif;
 	text-transform: uppercase;
-
 	background-color: #63a63e;
 }
 
@@ -427,35 +387,22 @@ footer ul {
 	background-color: #518534;
 }
 
-
-
-
-
 .bookmark-button {	
 	font-size: 14px;
 	line-height: 18px;
 	color: #32425c;
-	font-family: Cuprum Sans;
+	font-family: "Cuprum Sans", "Arial", sans-serif;
 	text-transform: uppercase;
-
 	border: 3px solid #63a63e;
 	background-color: #ffffff;
 }
 
 .bookmark-button:hover {
 	border: 3px solid #32425c;
-
-	outline: none; /*?*/
 }
 
 .bookmark-button:active {
 	color: #d0d2d6;
 	border: 3px solid #c1c6ce;
-
-	outline: none; /*?*/
 }
 
-.bookmark-button:visited {
-	outline: none; /*? не работает*/
-
-}
