@@ -137,6 +137,161 @@
 	color: #a8abaf;
 }
 
+.categories-list {
+	list-style: none;
+}
+
+.category-item h3 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Cuprum Bold", "Arial", sans-serif;
+}
+
+.category-item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
+}
+
+
+.categories-list li:nth-child(1) {
+	background-color: #ffbf47;
+}
+
+.categories-list li:nth-child(2) {
+	background-color: #3bbce3;
+}
+
+.categories-list li:nth-child(3) {
+	background-color: #dc91d8;
+}
+
+.categories-list li:nth-child(4) {
+	background-color: #8ed78f;
+}
+
+.categories-list li:nth-child(5) {
+	background-color: #ffc047;
+}
+
+
+
+.categories-list li:nth-child(1) a {
+	background-color: #e5ac40;
+}
+
+.categories-list li:nth-child(2) a {
+	background-color: #35a9cc;
+}
+
+.categories-list li:nth-child(3) a {
+	background-color: #c682c2;
+}
+
+.categories-list li:nth-child(4) a {
+	background-color: #80c180;
+}
+
+.categories-list li:nth-child(5) a {
+	background-color: #e5ac40;
+}
+
+
+
+.slider {
+	background-image: url(../img/drill-background-1.jpg);
+	background-repeat: no-repeat;
+}
+
+
+.slider h3 {
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+	color: #fff;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-weight: 700;
+}
+
+.slider p {
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
+
+}
+
+.popular-header h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
+}
+
+.popular-maker ul {
+	list-style: none;
+}
+
+.services h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
+}
+
+.services p {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+	font-family: "PT Sans Regular", "Arial", sans-serif;
+}
+
+.services h3 {
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+	color: #32425c;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
+}
+
+.services-list {
+	list-style: none;
+}
+
+.service-item button {
+	background-color: #32425c;
+
+	font-size: 21px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-weight: 700;
+
+	border: none;
+}
+
+.service-item-current button {
+	background-color: #ffffff;
+
+	font-size: 21px;
+	line-height: 30px;
+	color: #32425c;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-weight: 700;
+
+}
+
+
+
+
+
+
 .about-company h2 {
 	text-transform: uppercase;
 	font-size: 30px;
@@ -300,6 +455,53 @@ footer ul {
 	text-transform: uppercase;
 }
 
+.filters p {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	font-family: "PT Sans Regular", "Arial", sans-serif;
+	text-transform: uppercase;
+
+	background-color: #f7f3ec;
+
+}
+
+.sort-points  {
+	background-color: #f7f3ec;
+}
+
+.sort-item {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	font-family: "PT Sans Regular", "Arial", sans-serif;
+	text-transform: uppercase;
+	background: inherit;
+
+	border: none;
+	
+
+	text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #ee3643;
+
+
+	/*Свойства ниже позволяют подчеркивающей линии не перекрывать текст */
+    -webkit-text-underline-position: under;
+ 	-ms-text-underline-position: below;
+  	text-underline-position: under; 
+    
+}
+
+.sort-item-current {
+	border: none;
+	text-decoration: none;
+	color: #ee3643;
+
+}
+
+
+
 .filters fieldset {
 	border: none;
 }
@@ -327,7 +529,7 @@ footer ul {
 	list-style: none;
 }
 
-.filters button {
+.show-button {
 	font-size: 13px;
 	line-height: 18px;
 	color: #000;
@@ -406,3 +608,42 @@ footer ul {
 	border: 3px solid #c1c6ce;
 }
 
+
+.pagination-list  {
+	list-style: none;
+}
+
+.pagination-item a {
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	font-family: "PT Sans", "Arial", sans-serif;
+	text-transform: uppercase;
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+}
+
+.pagination-item-current a{
+	background-color: #ee3643;
+	color: #ffffff;
+}
+
+.annotation {
+	background-color: #f2f6f8;
+}
+
+.annotation h2 {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	font-family: "Cuprum Regular", "Arial", sans-serif;
+	text-transform: uppercase;
+}
+
+.annotation p {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+	font-family: "PT Sans Regular", "Arial", sans-serif;
+}

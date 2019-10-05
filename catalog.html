@@ -122,15 +122,24 @@
         <li class="breadcrumbs-item-current">Перфораторы</li>
       </ul>
 
-      <section class="filters">     <!--Форма фильтрации -->
+      <section class="filters">     
         <h2 class="visually-hidden">Фильтр товаров</h2>
 
         <form action="https://echo.htmlacademy.ru" method="get">
 
-          <p>Сортировка:</p>
-          <button type="submit">По цене</button>
-          <button type="submit">По типу</button>
-          <button type="submit">По функционалу</button>
+
+          <div class="sort-points">
+            <p>Сортировка:</p>
+            
+              <button class="sort-item sort-item-current" type="submit">По цене</button>
+            
+              <button class="sort-item" type="submit">По типу</button>
+            
+              <button class="sort-item" type="submit">По функционалу</button>
+            
+          </div>
+
+        
 
           <p>Фильтр:</p>
 
@@ -195,13 +204,13 @@
           </ul>
         </fieldset>
 
-        <button type="submit">Показать</button>
+        <button class="show-button" type="submit">Показать</button>
 
       </form>
-
-
-
       </section>
+
+
+
 
       <section>
         <h2 class="visually-hidden">Список товаров</h2>
@@ -360,26 +369,37 @@
 
 
         <div>
-          <ul>
-            <li><a>1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
+
+          <ul class="pagination-list">
+            <li class="pagination-item pagination-item-current">
+              <a>1</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#">3</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#">Следующая</a>
+            </li>
+
           </ul>
-          <a href="#">Следующая</a>
+
         </div>
 
       </section>
 
 
-      <section>
+      <section class="annotation">
         <h2>Пара слов о перфораторах</h2>
-        <p>Перфоратор -- универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче,  бетоне и камне.<br>
+        <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче,  бетоне и камне.<br>
         Существуют электромеханические и пневмотические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В<br>
         ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель. </p>
       </section>
 
 
-      <section>
+      <section class="visually-hidden">
         <h2 class="visually-hidden">Уведомление о добавлении товара в корзину</h2>
         <p>Товар добавлен в корзину!</p>
 
